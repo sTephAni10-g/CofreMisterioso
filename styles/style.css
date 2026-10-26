@@ -1,0 +1,106 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0f182e;
+  color: #8c79e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+body > p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.arena {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.arena button {
+  flex: 1;
+  padding: 16px 8px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #09234c;
+  color: #6a35f1;
+  border: 2px solid #6a35f1;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.arena button:hover:not(:disabled) {
+  background-color: #8a7ad9;
+  color: #0f172a;
+  box-shadow: 0 0 15px #4e38f8;
+}
+
+.arena button:disabled {
+  background-color: #1a2332;
+  border-color: #334155;
+  color: #475569;
+  cursor: not-allowed;
+}
+
+.Infos {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 20px;
+}
+
+#mensagem {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.placar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #334155;
+  padding-top: 12px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.placar span {
+  color: #6d28cd;
+  font-weight: bold;
+}
+
+#jogarNovamente {
+  width: 100%;
+  max-width: 380px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #6d8475;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#jogarNovamente:hover {
+  background-color: #4ade80;
+  box-shadow: 0 0 15px #4ade80;
+}
